@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project One</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="main">
+	<div class="container">
+	<div class="header">
+		<div class="headertitle">
+			<h2>Fast Facts<br> Trivia Time!</h2>
+			<h3>A Quiz Presented By: Shay Perez</h3>
+		</div>
+	</div>
+
+	<div class="entry">
+	<h2><b><span class="Greeting"></span></b></h2>
+  <form id="quiz" name="quiz">
+<ul>
+  	<li>
+    <h3>Which is the capital of Rhode Island?</h3>
+    <input id="mc" type="radio" name="question0" value="A">Providence<br>
+    <input id="mc" type="radio" name="question0" value="B">Boston<br>
+    <input id="mc" type="radio" name="question0" value="C">Detroit<br>
+  </li>
+  <li>
+    <h3>Who was the seventh US President?</h3>
+    <input id="mc" type="radio" name="question1" value="A">John Adams<br>
+    <input id="mc" type="radio" name="question1" value="B">Andrew Jackson<br>
+    <input id="mc" type="radio" name="question1" value="C">Calvin Klein<br>
+  </li>
+  <li>
+	<h3>Where is Spain located?</h3>	
+    <input id="mc" type="radio" name="question2" value="A">Europe<br>
+    <input id="mc" type="radio" name="question2" value="B">It is an Island<br>
+    <input id="mc" type="radio" name="question2" value="C">South America<br>
+  </li>
+    <li>
+    <h3>Which company produced the movie Toy Story?</h3>
+    <input id="mc" type="radio" name="question3" value="A">Disney<br>
+    <input id="mc" type="radio" name="question3" value="B">Disney's Pixar<br>
+    <input id="mc" type="radio" name="question3" value="C">Universal Studios<br>
+  </li>
+  <li>
+    <h3>What is the most recent published novel by Stephen King</h3>
+    <input id="mc" type="radio" name="question4" value="A">Sleeping Beauties<br>
+    <input id="mc" type="radio" name="question4" value="B">The Outsider<br>
+    <input id="mc" type="radio" name="question4" value="C">Elevation<br>
+  </li>
+  <li>
+	<h3>Which popular chef hosts MasterChef on FOX?</h3>	
+    <input id="mc" type="radio" name="question5" value="A">Gordan Ramsay<br>
+    <input id="mc" type="radio" name="question5" value="B">Emril Lagasse<br>
+    <input id="mc" type="radio" name="question5" value="C">Bobby Flay<br>
+  </li>
+    <li>
+    <h3>Which city is the most populated in the world?</h3>
+    <input id="mc" type="radio" name="question6" value="A">Orlando<br>
+    <input id="mc" type="radio" name="question6" value="B">Shanghai<br>
+    <input id="mc" type="radio" name="question6" value="C">Mexico City<br>
+  </li>
+  <li>
+    <h3>In which galaxy does Earth reside?</h3>
+    <input id="mc" type="radio" name="question7" value="A">Milky Way<br>
+    <input id="mc" type="radio" name="question7" value="B">Sombrero<br>
+    <input id="mc" type="radio" name="question7" value="C">Sunflower<br>
+  </li>
+  <li>
+	<h3>When was The Illiad written?</h3>	
+    <input id="mc" type="radio" name="question8" value="A">18th Century<br>
+    <input id="mc" type="radio" name="question8" value="B">8th Century<br>
+    <input id="mc" type="radio" name="question8" value="C">We don't know<br>
+  </li>
+    <li>
+	<h3>How many weeks are in one year?</h3>	
+    <input id="mc" type="radio" name="question9" value="A">50<br>
+    <input id="mc" type="radio" name="question9" value="B">365<br>
+    <input id="mc" type="radio" name="question9" value="C">52<br>
+  </li>
+</ul>
+
+<input id="button" type="button" value="What Did You Get?" onclick="getScore();">
+</form>
+
+<div id="hide">
+<blockquote>
+  <p id="numCorrect"></p>
+</blockquote>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
